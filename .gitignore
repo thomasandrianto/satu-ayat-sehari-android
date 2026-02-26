@@ -1,0 +1,104 @@
+# ==============================
+# ENVIRONMENT & SECRETS
+# ==============================
+
+# Environment variables
+.env
+.env.*
+
+# Firebase Admin / Service Account Keys
+firebase-service-account.json
+firebase_service_account.json
+*-firebase-adminsdk-*.json
+
+# Supabase local temp files
+supabase/.temp
+
+# macOS
+.DS_Store
+
+# ==============================
+# MISCELLANEOUS
+# ==============================
+
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==============================
+# IDE / EDITOR
+# ==============================
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode (aktifkan kalau mau exclude)
+.vscode/
+
+# ==============================
+# FLUTTER / DART
+# ==============================
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ==============================
+# ANDROID
+# ==============================
+
+android/.gradle/
+android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ==============================
+# iOS / macOS
+# ==============================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+
+macos/Pods/
+macos/.symlinks/
+
+# ==============================
+# LINUX / WINDOWS
+# ==============================
+
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ==============================
+# TEST OUTPUT
+# ==============================
+
+test/coverage/
+
+# ==============================
+# SYMBOLICATION / OBFUSCATION
+# ==============================
+
+app.*.symbols
+app.*.map.json
